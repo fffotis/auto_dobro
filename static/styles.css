@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #242020;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .instruction {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #655555;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instruction-text {
+    margin-bottom: 20px;
+  }
+  
+  .instruction-screenshot {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instruction-form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #b80f39;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
