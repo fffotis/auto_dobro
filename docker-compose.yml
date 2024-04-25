@@ -20,7 +20,7 @@ services:
     build:
       context: .
     container_name: celery_app
-    command: celery -A ee:celery worker --loglevel=INFO
+    command: celery -A task:celery worker --loglevel=INFO
     depends_on:
       - redis
     
@@ -28,7 +28,7 @@ services:
     build:
       context: .
     container_name: flower_app
-    command: celery -A ee:celery flower
+    command: celery -A task:celery flower
     depends_on:
       - redis
     ports:
